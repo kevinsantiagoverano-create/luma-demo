@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>LUMA — Cocina Mediterránea</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css"></head><body>
+<nav class="top" id="nav"><div class="nv"><a class="logo" href="#inicio" aria-label="LUMA inicio">LUMA</a>
+<div class="links" id="links"><a href="#inicio">Inicio</a><a href="#cocina">Nuestra cocina</a><a href="#menu">Menú</a><a href="#experiencia">Experiencia</a><a href="#reservas">Reservas</a><a class="btn cta sm" href="#menu">Pedir a domicilio</a></div>
+<div style="display:flex;align-items:center"><button class="ic" id="cartBtn" aria-label="Abrir carrito"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 8h14l-1 12H6zM9 8a3 3 0 016 0"/></svg><span class="badge" id="badge">0</span></button>
+<button class="ic burger" id="burger" aria-label="Menú" aria-expanded="false"><svg width="26" height="26" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6" fill="none"><path d="M3 7h18M3 12h18M3 17h18"/></svg></button></div></div></nav>
+
+<header class="hero" id="inicio"><div id="heroPlate"></div>
+<div class="hero-t"><span class="tag">Cocina de temporada</span><h1>El Mediterráneo <em>servido a tu mesa.</em></h1>
+<svg class="orn" viewBox="0 0 90 14" fill="none" stroke="#D8A46B" stroke-width="1.5"><path d="M2 8c12-10 20 6 32-2s14-4 20 0 20 6 34-2"/></svg>
+<p class="lead">Sabores honestos, ingredientes frescos y el arte de disfrutar cada momento.</p>
+<div class="btns"><a class="btn" href="#menu">Descubrir nuestra carta</a><a class="btn ghost" href="#reservas">Reservar una mesa</a></div></div>
+<a class="scroll" href="#intro">SCROLL ↓</a></header>
+
+<section id="intro"><div class="wrap intro rv-r"><div class="art" id="introArt" role="img" aria-label="Ilustración de ingredientes mediterráneos"></div>
+<div><span class="eyebrow">Bienvenidos</span><h2>Una mesa. Ingredientes honestos. Tiempo para disfrutar.</h2>
+<p class="t">En LUMA creemos que comer bien es mucho más que sentarse a la mesa. Es compartir, descubrir sabores y dejar que los ingredientes hablen por sí mismos. Cocinamos con respeto por la tradición mediterránea y con una mirada contemporánea.</p>
+<div class="chips"><span>Ingredientes frescos</span><span>Cocina artesanal</span><span>Inspiración mediterránea</span></div></div></div></section>
+
+<section class="feat" style="padding-top:0"><div class="wrap rv-r"><div class="sec-h"><span class="eyebrow">Selección de la casa</span><h2>Platos destacados</h2></div><div class="grid" id="featGrid"></div></div></section>
+
+<section id="menu" class="sage"><div class="wrap rv-r"><div class="sec-h"><span class="eyebrow" style="color:var(--oliva)">La carta</span><h2>Menú LUMA</h2></div>
+<div class="filters" id="filters" role="tablist"></div><div class="grid" id="menuGrid"></div></div></section>
+
+<section id="cocina"><div class="wrap rv-r"><div class="sec-h"><span class="eyebrow">Nuestra cocina</span><h2>Simplemente, buenos ingredientes.</h2><p style="max-width:620px;margin:18px auto 0;color:var(--muted)">En LUMA no necesitamos complicar lo que ya es bueno. Seleccionamos ingredientes de temporada, respetamos las recetas y cuidamos cada detalle para que los sabores se sientan naturales, frescos y memorables.</p></div>
+<div class="pil"><div><svg viewBox="0 0 40 40" fill="none" stroke="#A7B18A" stroke-width="2"><circle cx="20" cy="20" r="8"/><path d="M20 3v6M20 31v6M3 20h6M31 20h6M8 8l4 4M28 28l4 4M32 8l-4 4M12 28l-4 4"/></svg><h3>Temporada</h3><p>Elegimos ingredientes que acompañan cada momento del año.</p></div>
+<div><svg viewBox="0 0 40 40" fill="none" stroke="#A7B18A" stroke-width="2"><path d="M8 28c0-10 6-18 24-20-2 18-10 24-20 22M8 32c6-8 12-12 18-15"/></svg><h3>Artesanía</h3><p>Cada preparación tiene tiempo, cuidado y atención.</p></div>
+<div><svg viewBox="0 0 40 40" fill="none" stroke="#A7B18A" stroke-width="2"><path d="M20 6v28M8 14h24M8 14l-4 10h8zM32 14l-4 10h8z"/></svg><h3>Equilibrio</h3><p>Respetamos el ingrediente, combinamos sabores y dejamos que cada plato tenga su propia personalidad.</p></div></div></div></section>
+
+<section id="experiencia" class="olive"><div class="wrap two rv-r"><div><span class="eyebrow">La experiencia</span><h2>Un lugar para quedarse un poco más.</h2><p style="margin:20px 0 28px;opacity:.85;max-width:460px">Desde un almuerzo tranquilo hasta una cena que se extiende sin mirar el reloj, LUMA está pensado para disfrutar la comida, la compañía y el momento.</p><a class="btn cta" href="#reservas">Reserva tu mesa</a></div><div class="mos" id="mos"></div></div></section>
+
+<section id="reservas" style="background:var(--oliva);color:#F5F1E7;padding-top:0"><div class="wrap two rv-r"><div><span class="eyebrow">Reservas</span><h2>Tu mesa te espera.</h2><p style="margin-top:18px;opacity:.85;max-width:420px">Reserva un momento para disfrutar, compartir y descubrir nuestra cocina.</p><p style="margin-top:12px;font-size:.85rem;opacity:.7">Demo: la reserva se simula en tu navegador, no se envía a ningún restaurante.</p></div>
+<div class="res-box" id="resBox"><form id="resForm" novalidate>
+<div class="f2"><label>Nombre<input name="n" autocomplete="name"><span class="err"></span></label><label>Correo<input name="e" type="email" autocomplete="email"><span class="err"></span></label></div>
+<div class="f2"><label>Teléfono<input name="t" type="tel" autocomplete="tel"><span class="err"></span></label><label>Fecha<input name="d" type="date"><span class="err"></span></label></div>
+<div class="f2"><label>Hora<select name="h"><option value="">Elegir</option></select><span class="err"></span></label><label>Personas<select name="p"><option value="">Elegir</option></select><span class="err"></span></label></div>
+<label>Ocasión<select name="o"><option>Sin ocasión especial</option><option>Cumpleaños</option><option>Aniversario</option><option>Cena en pareja</option><option>Reunión familiar</option></select></label>
+<label>Solicitudes especiales<textarea name="s" rows="2"></textarea></label><button class="btn cta" type="submit">Confirmar reserva</button></form></div></div></section>
+
+<section id="vinos" class="olive" style="padding-top:0"><div class="wrap rv-r"><p class="quote">El maridaje perfecto no tiene reglas, solo buenos momentos.</p><div class="wine" id="wineGrid"></div></div></section>
+
+<section><div class="wrap rv-r"><div class="sec-h"><span class="eyebrow">Para compartir</span><h2>Promociones</h2></div><div class="grid" id="promoGrid"></div></div></section>
+
+<section class="feat" style="padding-top:0"><div class="wrap rv-r"><div class="sec-h"><span class="eyebrow">Galería</span><h2>Instantes LUMA</h2></div><div class="gal" id="gal"></div></div></section>
+
+<section class="sage"><div class="wrap rv-r"><div class="sec-h"><span class="eyebrow" style="color:var(--oliva)">Opiniones</span><h2>Lo que dicen en la mesa</h2></div><div class="rv" id="rv"></div><p class="note">Reseñas demostrativas con nombres ficticios.</p></div></section>
+
+<section id="contacto"><div class="wrap ct rv-r"><div><span class="eyebrow">Visítanos</span><h2>Chapinero, Bogotá</h2><ul><li><span>Dirección</span><span>Calle 70, zona gastronómica de Chapinero (ficticia)</span></li><li><span>Lun – Jue</span><span>12:00 p. m. – 10:00 p. m.</span></li><li><span>Vie – Sáb</span><span>12:00 p. m. – 11:00 p. m.</span></li><li><span>Domingo</span><span>12:00 p. m. – 9:00 p. m.</span></li><li><span>Teléfono</span><span>+57 300 000 0000 (demo)</span></li><li><span>Correo</span><span>hola@luma-demo.co (ficticio)</span></li></ul>
+<div class="btns"><a class="btn cta" href="#reservas">Reservar mesa</a><a class="btn ghost" target="_blank" rel="noopener" href="https://www.google.com/maps/search/Calle+70+Chapinero+Bogot%C3%A1">Cómo llegar</a><a class="btn ghost" target="_blank" rel="noopener" href="https://wa.me/573000000000?text=Hola%20LUMA">WhatsApp</a></div></div>
+<div class="map" id="mapArt"><div><svg width="56" viewBox="0 0 24 24" fill="none" stroke="#354335" stroke-width="1.5"><path d="M12 22s7-6.5 7-12a7 7 0 10-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg><h3 style="margin-top:8px">LUMA</h3><p>Chapinero, Bogotá</p></div></div></div></section>
+
+<footer><div class="wrap"><div class="g"><div><div class="logo">LUMA</div><p style="opacity:.8;margin-top:8px">Cocina Mediterránea.<br><em style="font-family:var(--hf);font-size:1.2rem">El placer de comer sin prisa.</em></p></div>
+<div><h4>Explorar</h4><a href="#menu">Menú</a><a href="#reservas">Reservas</a><a href="#menu">Domicilios</a><a href="#contacto">Contacto</a></div>
+<div><h4>Horarios</h4><p style="opacity:.85;font-size:.9rem">Lun–Jue 12–10 p. m.<br>Vie–Sáb 12–11 p. m.<br>Dom 12–9 p. m.</p></div>
+<div><h4>Redes</h4><a target="_blank" rel="noopener" href="https://www.instagram.com/">Instagram</a><a target="_blank" rel="noopener" href="https://www.facebook.com/">Facebook</a><a target="_blank" rel="noopener" href="https://wa.me/573000000000">WhatsApp</a></div></div>
+<div class="end">Que nunca falte una buena mesa.<small>© 2026 LUMA — Sitio demo con datos ficticios. No es un restaurante real.</small></div></div></footer>
+
+<div class="ov" id="ov"></div>
+<aside class="dr" id="dr" aria-label="Carrito" aria-hidden="true"><header><h3>Tu pedido</h3><button class="ic" id="closeCart" aria-label="Cerrar carrito">✕</button></header><div class="body" id="cartBody"></div><footer id="cartFoot"></footer></aside>
+<div class="mod" id="mod" role="dialog" aria-modal="true"><div class="in" id="modIn"></div></div>
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Galería"><button class="x" aria-label="Cerrar">✕</button><button class="p" aria-label="Anterior">‹</button><div id="lbImg"></div><button class="n" aria-label="Siguiente">›</button><div class="cap" id="lbCap"></div></div>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="js/app.js"></script></body></html>
